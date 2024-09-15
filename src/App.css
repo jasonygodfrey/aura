@@ -1,0 +1,181 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+  }
+  
+  /* Centered container for main content */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Header */
+  .app-header {
+    background-color: #1f1f1f; /* Darker header */
+    color: #bb86fc; /* Soft purple text */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Darker shadow */
+  }
+  
+  .app-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #bb86fc; /* Keep the text vibrant */
+  }
+  
+  /* Profile Content / Card Design */
+  .profile-content {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #1f1f1f; /* Dark card background */
+    border-radius: 12px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); /* Stronger shadow for dark mode */
+    text-align: center;
+  }
+  
+  .profile-content h2 {
+    color: #bb86fc; /* Vibrant purple for headings */
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .profile-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #b0b0b0; /* Softer text color */
+  }
+  
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: #bb86fc; /* Vibrant button color */
+    color: #121212;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #985eff; /* Darker purple on hover */
+  }
+  
+  /* Form inputs */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #333; /* Dark input background */
+    color: #e0e0e0; /* Light input text */
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #bb86fc; /* Focus color for input */
+    outline: none;
+  }
+  
+  /* Link Styling */
+  a {
+    color: #bb86fc;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #985eff;
+    text-decoration: underline;
+  }
+  
+  /* Centering and font for general text */
+  p {
+    text-align: center;
+    margin-top: 12px;
+    color: #b0b0b0;
+  }
+  
+  /* Dark mode for mobile responsiveness */
+  @media (max-width: 768px) {
+    .app-header h1 {
+      font-size: 22px;
+    }
+  
+    .profile-content {
+      max-width: 90%;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  }
+  
+  /* Profile Content */
+  .profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  
+  button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #bb86fc;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #985eff;
+  }
+  
+  h2 {
+    color: #bb86fc;
+  }
+  
+  p {
+    color: #e0e0e0;
+  }
+  
+  img {
+    margin-top: 20px;
+  }
+  
+  
